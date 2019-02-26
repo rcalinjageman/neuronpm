@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_models" value="name:model;datatype:string" />
+	<infoitem key="UD_rs_pcount" value="name:pcount;datatype:int" />
+</info>

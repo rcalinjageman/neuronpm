@@ -1,0 +1,16 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastOpenVersion>8.0.50215</LastOpenVersion>
+    <PublishUrlHistory>F:\www\webroot\nsweep_public\publish\|http://nsweep.homeip.net/publish/|http://localhost/NSweep/</PublishUrlHistory>
+    <InstallUrlHistory>http://neuronpm.homeip.net/publish/|http://www.neuronpm.homeip.net/publish/|</InstallUrlHistory>
+    <SupportUrlHistory>
+    </SupportUrlHistory>
+    <UpdateUrlHistory>
+    </UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <ApplicationRevision>2</ApplicationRevision>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>true</VerifyUploadedFiles>
+  </PropertyGroup>
+</Project>

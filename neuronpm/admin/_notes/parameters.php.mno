@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_parameters" value="name:paramid;datatype:int,name:model;datatype:string,name:number;datatype:int,name:name;datatype:string,name:type;datatype:string,name:ubound;datatype:int,name:p1;datatype:real,name:p2;datatype:real,name:list;datatype:string" />
+	<infoitem key="UD_rs_models" value="name:model;datatype:string" />
+</info>

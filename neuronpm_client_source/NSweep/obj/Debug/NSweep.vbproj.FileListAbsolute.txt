@@ -1,0 +1,4 @@
+D:\Documents\MyDocs\GitHub\neuronpm\neuronpm_client_source\NSweep\bin\Debug\neuronPM.exe.config
+D:\Documents\MyDocs\GitHub\neuronpm\neuronpm_client_source\NSweep\obj\Debug\neuronPM.exe
+D:\Documents\MyDocs\GitHub\neuronpm\neuronpm_client_source\NSweep\obj\Debug\neuronPM.xml
+D:\Documents\MyDocs\GitHub\neuronpm\neuronpm_client_source\NSweep\obj\Debug\neuronPM.pdb

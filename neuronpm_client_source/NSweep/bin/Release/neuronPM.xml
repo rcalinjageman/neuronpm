@@ -1,0 +1,87 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+neuronPM
+</name>
+</assembly>
+<members>
+<member name="M:neuronPM.ScreenSaverForm.SetupScreenSaver">
+	<summary>
+Set up the main form as a full screen screensaver.
+</summary>
+</member><member name="T:neuronPM.ScreenSaverForm">
+	<summary>
+ Screen responsible for rendering the primary visual content of the screen saver.  
+ </summary>
+	<remarks>
+ The form is entirely custom drawn using GDI+ graphics objects.  To alter display, 
+ modify graphics code or host new UI controls on the form.  
+ </remarks>
+</member><member name="P:neuronPM.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:neuronPM.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:neuronPM.My.Resources.Resources.sweep">
+	<summary>
+  Looks up a localized string similar to /* load the standard hoc files we need */
+load_file("stdlib.hoc")
+load_file("family.hoc")
+load_file("shapebox.hoc")
+load_file("pointbsr.hoc", "PointBrowser")
+load_file("wingroup.hoc")
+load_file("stdrun.hoc")
+load_file("inserter.hoc")
+load_file("pointman.hoc")
+print "WINSWEEP - INIT - standard libraries opened"
+/* load and initialize the sweep data structures */
+chdir(winsweepdirectory)
+load_file("sweeptypes.hoc")
+objref plist
+plist = new ParameterList()
+print "WINSWEEP - INIT - parameter ty [rest of string was truncated]";.
+</summary>
+</member><member name="P:neuronPM.My.Resources.Resources.sweeptypes">
+	<summary>
+  Looks up a localized string similar to begintemplate Parameter
+	public name, type, ubound, level, value, base, increment
+	strdef name, type
+	objref vallist
+	proc init() {localobj vallist
+		level = 0
+		name = $s1
+		type = $s2
+		if (strcmp(type, "list") == 0) {
+			vallist = new Vector()
+			vallist.append($o3)
+			ubound = vallist.size() - 1
+			return
+		}	
+		if (strcmp(type, "exp") == 0) {
+			ubound = $3
+			expbase = $4
+			expstart = $5
+			return
+		}
+		ubound = $3
+		slope = $4
+		intercept = $5
+	}
+	func increment() { [rest of string was truncated]";.
+</summary>
+</member><member name="T:neuronPM.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:neuronPM.OptionsForm">
+	<summary>
+ Screen responsible for reading and writing common user settings.  
+ </summary>
+</member>
+</members>
+</doc>

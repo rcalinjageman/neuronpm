@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="neuronPM.exe" version="1.0.0.1" publicKeyToken="7cc8db9a0c89283e" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Resources\App.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="neuronPM" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="neuronPM.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="neuronPM.exe" size="765952">
+      <assemblyIdentity name="neuronPM" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>51iJHqRDesWSkme5kpbbIpz00hk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="neuronPM.exe.config" size="4949">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Y8B6yhsM0kgkgTg9ro6piI4jfdk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\App.ico" size="10134">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>LROPk1veSIbLYJRhcyHwmLjBXB4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\sweep.txt" size="3769">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>be2pxiNeBXcRGlwEHVTO8SG9PY4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\sweeptypes.txt" size="2376">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>dWoJaRqI539VVaaz05fq2B534iE=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ASBIO350NSC-02\rcalinjageman" issuerKeyHash="8d502c419f5ba9ff1e7db07282781b615c40a039" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>3BNxGOCZMwykFqZsLuKejOzCgbo=</DigestValue></Reference></SignedInfo><SignatureValue>mUSgewdXe8pUF5jzP0QVlTdIRx7QdlbmrViBKexwO+qYz3moJqCCnZV/La9rosyAYIGssvoOpOV/8Ikp3ZkKarK2GTAeBdjJXgBaRgKiFBx9JIEXwTckh1xHH+yKMhsIApTaobBNIhXGyb8P6OEv3y0J3Bmt0/UrokgG9b5NT2Q=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3gdPncw7IgNsW8MzREG+UMJlM20aKs0SrNkPJtfgA0Poi87ZDOCPg506wHq+k/KBEQz+q6j6s4fxvL8tAon6IcT3ErgmzX8WizA95jpqDRg0enMZZqZnLG4kOe97KmZBmqWOGIePgIaLeJkbILT9N5CY0x9bjyKyep8p05lZeU8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ba81c2ec8c9ee22e6ca616a40c3399e0187113dc" Description="" Url=""><as:assemblyIdentity name="neuronPM.exe" version="1.0.0.1" publicKeyToken="7cc8db9a0c89283e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ASBIO350NSC-02\rcalinjageman</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>8GEWtQyRbdqV3NDjXu5nssfSWwA=</DigestValue></Reference></SignedInfo><SignatureValue>M/re3WBMdb1ajYuCx1hm82A2hUuCXyBDl0hy5lOR3l5gqxiDsEHTiPE0kZNPvXiHisurJe+0+JjqfiV/apgAuIqweVTS/8SdJF9SsI6bMeQIcZtrSfgBR7E0Sut9MkaCLmxDZDARY5UdY6bDc29k7E2+Pgwfr3HDrO9lyuurWrU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3gdPncw7IgNsW8MzREG+UMJlM20aKs0SrNkPJtfgA0Poi87ZDOCPg506wHq+k/KBEQz+q6j6s4fxvL8tAon6IcT3ErgmzX8WizA95jpqDRg0enMZZqZnLG4kOe97KmZBmqWOGIePgIaLeJkbILT9N5CY0x9bjyKyep8p05lZeU8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICATCCAW6gAwIBAgIQNKdX4ouvYZxC6ElFkdWkYzAJBgUrDgMCHQUAMEMxQTA/BgNVBAMeOABBAFMAQgBJAE8AMwA1ADAATgBTAEMALQAwADIAXAByAGMAYQBsAGkAbgBqAGEAZwBlAG0AYQBuMB4XDTA1MDgwNDIwNTI1MVoXDTA2MDgwNTAyNTI1MVowQzFBMD8GA1UEAx44AEEAUwBCAEkATwAzADUAMABOAFMAQwAtADAAMgBcAHIAYwBhAGwAaQBuAGoAYQBnAGUAbQBhAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAN4HT53MOyIDbFvDM0RBvlDCZTNtGirNEqzZDybX4AND6IvO2Qzgj4OdOsB6vpPygREM/quo+rOH8by/LQKJ+iHE9xK4Js1/FoswPeY6ag0YNHpzGWamZyxuJDnveypmQZqljhiHj4CGi3iZGyC0/TeQmNMfW48isnqfKdOZWXlPAgMBAAEwCQYFKw4DAh0FAAOBgQBc0HUBX2oESx+2UYQ0UBE1k76GlKvwqSWnKrbNecaVZ99AG0+1YT21iIhcg7FSxhSRHNpkSn3C/yh0hqZjTJpESBxClb0cNgcxaz+i77tO1nkwsdqEKTCQtUWn0u3uKVkSXj9vOLa/+ETT69J4QYSL1kJP4+uARRQWC69/qxGwmw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

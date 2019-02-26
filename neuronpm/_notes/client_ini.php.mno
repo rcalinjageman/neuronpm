@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_clients" value="name:clientid;datatype:int,name:ip;datatype:string,name:host;datatype:string,name:status;datatype:int,name:approved;datatype:int,name:started;datatype:datetime,name:lastcomm;datatype:datetime,name:lastmess;datatype:string,name:cameon;datatype:int,name:timeon;datatype:int,name:blockscomplete;datatype:int,name:model;datatype:string,name:modelversion;datatype:int,name:clientversion;datatype:int,name:cblock;datatype:int,name:lastreply;datatype:string" />
+	<infoitem key="UD_Recordset1" value="name:clientid;datatype:int,name:ip;datatype:string,name:host;datatype:string,name:status;datatype:int,name:approved;datatype:int,name:started;datatype:datetime,name:lastcomm;datatype:datetime,name:lastmess;datatype:string,name:cameon;datatype:int,name:timeon;datatype:int,name:blockscomplete;datatype:int,name:model;datatype:string,name:modelversion;datatype:int,name:clientversion;datatype:int,name:cblock;datatype:int,name:lastreply;datatype:string" />
+</info>

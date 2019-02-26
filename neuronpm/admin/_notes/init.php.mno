@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_models" value="name:model;datatype:string,name:startfile;datatype:string,name:version;datatype:string,name:comments;datatype:string,name:blocksize;datatype:int,name:reportline;datatype:string,name:inlinereport;datatype:int,name:runsneeded;datatype:int,name:active;datatype:int" />
+	<infoitem key="UD_rs_models" value="name:model;datatype:string,name:startfile;datatype:string,name:version;datatype:string,name:comments;datatype:string,name:blocksize;datatype:int,name:reportline;datatype:string,name:inlinereport;datatype:int,name:runsneeded;datatype:int,name:active;datatype:int,name:pcount;datatype:int,name:wcount;datatype:int" />
+</info>
